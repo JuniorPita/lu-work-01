@@ -2,41 +2,214 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
-    font-size: 16px;
+    margin: 0 auto;
+}
+
+.container {
+    margin: 0 130px 0 130px;
+}
+
+.button {
+    border: none;
+    display: block;
+}
+
+.button a {
+    text-decoration: none;
+}
+
+.nav__container {
+    padding-top: 57px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__date {
+    color: #FFF;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 36px;
+}
+
+.header {
+    min-height: 794px;
+    background: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home__container {
+    position: relative;
+    padding: 22px 182px 0 182px;
+}
+
+.home__phones {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 450px;
+    margin-top: 126px;
+}
+
+.home__phones-description {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFF;
+    padding-top: 12px;
+}
+
+.home__img {
+    position: absolute;
+    left: 21%;
+    top: 23px;
+}
+
+.home__content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.home__title {
+    color: #FFF;
+    text-align: center;
+}
+
+.home__title-first {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 76px;
+    letter-spacing: 0.745em;
+    text-transform: uppercase;
+}
+
+.home__title-second {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 128px;
+    line-height: 106px;
+}
+
+.home__title-third {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    text-transform: uppercase;
+    line-height: 60px;
+    letter-spacing: 0.37em;
+}
+
+.home__button {
+    margin-top: 32px;
+    margin-bottom: 8px;
+    background-color: #FFF;
+    padding: 22px 52px;
+}
+
+.home__button a {
+    color: #4A4A4A;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.workshop__container {
+    padding-top: 54px;
+}
+
+.workshop__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 112px;
+}
+
+.workshop__title {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 6px;
     color: #4A4A4A;
 }
 
-#block1 {
-    background: linear-gradient(0deg, rgba(255, 133, 22, 0.5), rgba(255, 133, 22, 0.5));
-    color: #FFFFFF;
+.workshop__button {
+    padding: 14px 40px;
+    background-color: #FFF;
+    border: 1px solid #000;
 }
 
-#block1 h1 {
+.workshop__button a {
+    color: #000;
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
-    font-size: 56px;
+    font-size: 14px;
+    line-height: 19px;
     text-align: center;
     text-transform: uppercase;
 }
 
-h2 {
-    font-family: 'Open Sans', sans-serif;
+.workshop__description {
+    margin: 0 auto;
+    max-width: 700px;
+    min-height: 204px;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 19px;
+    line-height: 24px;
+    color: #4A4A4A;
+}
+
+.workshop__cards {
+    margin-top: 60px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 90px;
+}
+
+.workshop__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.workshop__card-title {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
     text-align: center;
-    text-transform: uppercase;
+    letter-spacing: -0.0366516px;
+    color: #FF7E03;
 }
 
-#block2 h2,
-#block4 h2,
-#block6 h2 {
-    color: #000000;
-}
-
-#block3 h2,
-#block5 h2 {
-    color: #FFFFFF;
+.workshop__card-description {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: -0.0326923px;
+    color: #4A4A4A;
 }
