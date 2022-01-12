@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    color: #4A4A4A;
+}
+
+#block1 {
+    background: linear-gradient(0deg, rgba(255, 133, 22, 0.5), rgba(255, 133, 22, 0.5));
+    color: #FFFFFF;
+}
+
+#block1 h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 56px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#block2 h2,
+#block4 h2,
+#block6 h2 {
+    color: #000000;
+}
+
+#block3 h2,
+#block5 h2 {
+    color: #FFFFFF;
+}
