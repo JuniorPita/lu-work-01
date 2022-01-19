@@ -213,3 +213,413 @@ body {
     letter-spacing: -0.0326923px;
     color: #4A4A4A;
 }
+
+.when-and-where {
+    background: linear-gradient(0deg, #353535, #353535), linear-gradient(0deg, rgba(51, 51, 51, 0.8), rgba(51, 51, 51, 0.8));
+}
+
+.when-and-where__container {
+    padding-top: 52px;
+    padding-bottom: 110px;
+}
+
+.when-and-where__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.when-and-where__logo {
+    width: 121px;
+    height: 45px;
+    margin-right: 26px;
+}
+
+.when-and-where__title {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.when-and-where__button {
+    padding: 14px 40px;
+    background-color: transparent;
+    border: 1px solid #FFF;
+}
+
+.when-and-where__button a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.when-and-where__cards {
+    border: 1px solid #FFF;
+    padding: 20px 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 48px;
+}
+
+.when-and-where__card {
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    width: 510px;
+}
+
+.when-and-where__card:last-child {
+    justify-content: flex-end;
+}
+
+.when-and-where__card-title {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.when-and-where__card-container {
+    margin-top: 32px;
+}
+
+.when-and-where__card-subtitle {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 13.2778px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.when-and-where__card-info {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 200;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: -0.0326923px;
+}
+
+.when-and-where__card-text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 86px;
+    letter-spacing: -0.0871795px;
+}
+
+.when-and-where__card-place {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    letter-spacing: -0.0326923px;
+    margin: 5px 0;
+}
+
+.when-and-where__card-block {
+    display: flex;
+    align-items: flex-end;
+}
+
+.when-and-where__card-icon {
+    display: block;
+    margin-right: 8px;
+}
+
+.who__container {
+    padding-top: 52px;
+    padding-bottom: 68px;
+}
+
+.who__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 56px;
+}
+
+.who__logo {
+    width: 121px;
+    height: 45px;
+    margin-right: 8px;
+}
+
+.who__title {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #4A4A4A;
+}
+
+.who__date {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #4A4A4A;
+}
+
+.who__button {
+    padding: 22px 52px;
+    background-color: #FF7E03;
+    margin: 0 auto;
+}
+
+.who__button a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.get-ready {
+    background: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.get-ready__container {
+    padding-top: 50px;
+    padding-bottom: 130px;
+}
+
+.get-ready__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.get-ready__logo {
+    width: 121px;
+    height: 45px;
+    margin-right: 8px;
+}
+
+.get-ready__title {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.get-ready__date {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.get-ready__paragraph {
+    max-width: 750px;
+    margin: 0 auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+    font-size: 19px;
+    line-height: 24px;
+    color: #FFF;
+}
+
+.get-ready__cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 90px 0;
+}
+
+.get-ready__card {
+    display: flex;
+    flex-direction: column;
+}
+
+.get-ready__card-title {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFF;
+}
+
+.get-ready__card-text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: -0.0365385px;
+    color: #FFF;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+.get-ready__card-text span {
+    text-decoration: underline;
+}
+
+.get-ready__button {
+    padding: 22px 52px;
+    background-color: #FFF;
+    margin: 0 auto;
+}
+
+.get-ready__button a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.organizers__container {
+    padding-top: 42px;
+    padding-bottom: 100px;
+}
+
+.organizers__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.organizers__logo {
+    width: 121px;
+    height: 45px;
+    margin-right: 26px;
+}
+
+.organizers__title {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #4A4A4A;
+}
+
+.organizers__button {
+    padding: 14px 40px;
+    background-color: #FFF;
+    border: 1px solid #4A4A4A;
+}
+
+.organizers__button a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #4A4A4A;
+}
+
+.organizers__paragraphs {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0 auto;
+    max-width: 940px;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4A4A4A;
+}
+
+.organizers__paragraph:first-child {
+    margin-bottom: 24px;
+}
+
+.footer__container {
+    padding-bottom: 58px;
+}
+
+.footer__networks {
+    margin: 0 auto;
+    max-width: 940px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__network-container {
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+}
+
+.footer__network-icon {
+    display: block;
+}
+
+.footer__network-text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+}
+
+.footer__network-button {
+    padding: 14px 32px;
+    background-color: #FF7E03;
+}
+
+.footer__network-button a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.footer__copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 130px;
+}
+
+.footer__copyright-date {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #000;
+}
+
+.footer__copyright-mail {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FF7E03;
+}
