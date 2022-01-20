@@ -7,6 +7,7 @@
 
 body {
     margin: 0 auto;
+    max-width: 1440px;
 }
 
 .container {
@@ -18,8 +19,17 @@ body {
     display: block;
 }
 
+.button a:hover {
+    color: orange;
+}
+
+.button-orange a:hover {
+    color: #3F3F3F;
+}
+
 .button a {
     text-decoration: none;
+    transition: .3s ease-in-out all;
 }
 
 .nav__container {
@@ -53,8 +63,8 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    column-gap: 450px;
-    margin-top: 126px;
+    column-gap: 880px;
+    margin-top: 110px;
 }
 
 .home__phones-description {
@@ -69,7 +79,7 @@ body {
 
 .home__img {
     position: absolute;
-    left: 21%;
+    left: 12%;
     top: 23px;
 }
 
@@ -601,6 +611,15 @@ body {
     color: #FFF;
 }
 
+.footer__network-icon {
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.footer__network-icon:hover {
+    transform: scale(1.2);
+}
+
 .footer__copyright {
     display: flex;
     justify-content: space-between;
@@ -622,4 +641,12 @@ body {
     font-size: 20px;
     line-height: 25px;
     color: #FF7E03;
+}
+
+.logo {
+    transition: .3s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.1);
 }
