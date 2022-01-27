@@ -1,0 +1,667 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.container {
+    margin: 0 130px 0 130px;
+}
+
+.button {
+    border: none;
+    display: block;
+
+    a {
+        text-decoration: none;
+        transition: .3s ease-in-out all;
+    }
+
+    a:hover {
+        color: orange;
+    }
+
+    &-orange {
+        a:hover {
+            color: #3F3F3F;
+        }
+    }
+}
+
+.header {
+    min-height: 794px;
+    background: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav {
+    &__container {
+        padding-top: 57px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__date {
+        color: #FFF;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 36px;
+    }
+}
+
+.home {
+    &__container {
+        position: relative;
+        padding: 22px 182px 0 182px;
+    }
+
+    &__phones {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        column-gap: 880px;
+        margin-top: 110px;
+
+        &-description {
+            font-family: 'Source Sans Pro', sans-serif;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 30px;
+            text-align: center;
+            color: #FFF;
+            padding-top: 12px;
+        }
+    }
+
+    &__img {
+        position: absolute;
+        left: 12%;
+        top: 23px;
+    }
+
+    &__content {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 100;
+    }
+
+    &__title {
+        color: #FFF;
+        text-align: center;
+
+        &-first {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            font-size: 56px;
+            line-height: 76px;
+            letter-spacing: 0.745em;
+            text-transform: uppercase;
+        }
+
+        &-second {
+            font-family: 'Fira Sans', sans-serif;
+            font-weight: 800;
+            text-transform: uppercase;
+            font-size: 128px;
+            line-height: 106px;
+        }
+
+        &-third {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 800;
+            font-size: 36px;
+            text-transform: uppercase;
+            line-height: 60px;
+            letter-spacing: 0.37em;
+        }
+    }
+
+    &__button {
+        margin-top: 32px;
+        margin-bottom: 8px;
+        background-color: #FFF;
+        padding: 22px 52px;
+
+        a {
+            color: #4A4A4A;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 800;
+            font-size: 17px;
+            line-height: 23px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.workshop {
+    &__container {
+        padding-top: 54px;
+    }
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 112px;
+    }
+
+    &__title {
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 36px;
+        text-align: center;
+        letter-spacing: 6px;
+        color: #4A4A4A;
+    }
+
+    &__button {
+        padding: 14px 40px;
+        background-color: #FFF;
+        border: 1px solid #000;
+
+        a {
+            color: #000;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 800;
+            font-size: 14px;
+            line-height: 19px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+    }
+
+    &__description {
+        margin: 0 auto;
+        max-width: 700px;
+        min-height: 204px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 24px;
+        color: #4A4A4A;
+    }
+
+    &__cards {
+        margin-top: 60px;
+        margin-bottom: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 90px;
+    }
+
+    &__card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 16px;
+
+        &-title {
+            font-family: 'Fira Sans', sans-serif;
+            font-weight: 800;
+            font-size: 24px;
+            line-height: 29px;
+            text-align: center;
+            letter-spacing: -0.0366516px;
+            color: #FF7E03;
+        }
+
+        &-description {
+            font-family: 'Source Sans Pro', sans-serif;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 24px;
+            letter-spacing: -0.0326923px;
+            color: #4A4A4A;
+        }
+    }
+}
+
+.when-and-where {
+    background: linear-gradient(0deg, #353535, #353535), linear-gradient(0deg, rgba(51, 51, 51, 0.8), rgba(51, 51, 51, 0.8));
+
+    &__container {
+        padding-top: 52px;
+        padding-bottom: 110px;
+    }
+
+    &__heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 80px;
+    }
+
+    &__logo {
+        width: 121px;
+        height: 45px;
+        margin-right: 26px;
+    }
+
+    &__title {
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 36px;
+        text-align: center;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+        color: #FFF;
+    }
+
+    &__button {
+        padding: 14px 40px;
+        background-color: transparent;
+        border: 1px solid #FFF;
+
+        a {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 800;
+            font-size: 14px;
+            line-height: 19px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFF;
+        }
+    }
+
+    &__cards {
+        border: 1px solid #FFF;
+        padding: 20px 70px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        row-gap: 48px;
+    }
+
+    &__card {
+        display: flex;
+        flex-direction: column;
+        color: #FFF;
+        width: 510px;
+
+        &:last-child {
+            justify-content: flex-end;
+        }
+
+        &-title {
+            font-family: 'Fira Sans', sans-serif;
+            font-weight: 800;
+            font-size: 48px;
+            line-height: 58px;
+        }
+
+        &-container {
+            margin-top: 32px;
+        }
+
+        &-subtitle {
+            font-family: 'Source Sans Pro', sans-serif;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 40px;
+            letter-spacing: 13.2778px;
+            text-transform: uppercase;
+            margin-top: 30px;
+        }
+
+        &-info {
+            font-family: 'Fira Sans', sans-serif;
+            font-weight: 200;
+            font-size: 17px;
+            line-height: 20px;
+            letter-spacing: -0.0326923px;
+        }
+
+        &-text {
+            font-family: 'Source Sans Pro', sans-serif;
+            font-weight: 700;
+            font-size: 96px;
+            line-height: 86px;
+            letter-spacing: -0.0871795px;
+        }
+
+        &-place {
+            font-family: 'Fira Sans', sans-serif;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 43px;
+            letter-spacing: -0.0326923px;
+            margin: 5px 0;
+        }
+
+        &-block {
+            display: flex;
+            align-items: flex-end;
+        }
+
+        &-icon {
+            display: block;
+            margin-right: 8px;
+        }
+    }
+}
+
+.who {
+    &__container {
+        padding-top: 52px;
+        padding-bottom: 68px;
+    }
+
+    &__heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 56px;
+    }
+
+    &__logo {
+        width: 121px;
+        height: 45px;
+        margin-right: 8px;
+    }
+
+    &__title {
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 36px;
+        text-align: center;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+        color: #4A4A4A;
+    }
+
+    &__date {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 36px;
+        text-transform: uppercase;
+        color: #4A4A4A;
+    }
+
+    &__button {
+        padding: 22px 52px;
+        background-color: #FF7E03;
+        margin: 0 auto;
+
+        a {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 800;
+            font-size: 17px;
+            line-height: 23px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFF;
+        }
+    }
+}
+
+.get-ready {
+    background: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__container {
+        padding-top: 50px;
+        padding-bottom: 130px;
+    }
+
+    &__heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 90px;
+    }
+
+    &__logo {
+        width: 121px;
+        height: 45px;
+        margin-right: 8px;
+    }
+
+    &__title {
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 36px;
+        text-align: center;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+        color: #FFF;
+    }
+
+    &__date {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 36px;
+        text-transform: uppercase;
+        color: #FFF;
+    }
+
+    &__paragraph {
+        max-width: 750px;
+        margin: 0 auto;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 200;
+        font-size: 19px;
+        line-height: 24px;
+        color: #FFF;
+    }
+
+    &__cards {
+        display: flex;
+        justify-content: space-between;
+        margin: 90px 0;
+    }
+
+    &__card {
+        display: flex;
+        flex-direction: column;
+
+        &-title {
+            font-family: 'Fira Sans', sans-serif;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 38px;
+            color: #FFF;
+        }
+
+        &-text {
+            font-family: 'Source Sans Pro', sans-serif;
+            font-weight: 200;
+            font-size: 19px;
+            line-height: 24px;
+            letter-spacing: -0.0365385px;
+            color: #FFF;
+            padding-left: 25px;
+            padding-top: 20px;
+
+            span {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    &__button {
+        padding: 22px 52px;
+        background-color: #FFF;
+        margin: 0 auto;
+
+        a {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 800;
+            font-size: 17px;
+            line-height: 23px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #000;
+        }
+    }
+}
+
+.organizers {
+    &__container {
+        padding-top: 42px;
+        padding-bottom: 100px;
+    }
+
+    &__heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+
+    &__logo {
+        width: 121px;
+        height: 45px;
+        margin-right: 26px;
+    }
+
+    &__title {
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 36px;
+        text-align: center;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+        color: #4A4A4A;
+    }
+
+    &__button {
+        padding: 14px 40px;
+        background-color: #FFF;
+        border: 1px solid #4A4A4A;
+
+        a {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 800;
+            font-size: 14px;
+            line-height: 19px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #4A4A4A;
+        }
+    }
+
+    &__paragraphs {
+        font-family: 'Source Sans Pro', sans-serif;
+        margin: 0 auto;
+        max-width: 940px;
+        font-weight: 200;
+        font-size: 16px;
+        line-height: 24px;
+        color: #4A4A4A;
+    }
+
+    &__paragraph {
+        &:first-child {
+            margin-bottom: 24px;
+        }
+    }
+}
+
+.footer {
+    &__container {
+        padding-bottom: 58px;
+    }
+
+    &__networks {
+        margin: 0 auto;
+        max-width: 940px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__network {
+        &-container {
+            display: flex;
+            align-items: center;
+            column-gap: 25px;
+        }
+
+        &-icon {
+            display: block;
+            cursor: pointer;
+            transition: .3s ease-in-out;
+
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+
+        &-text {
+            font-family: 'Source Sans Pro', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: #000;
+        }
+
+        &-button {
+            padding: 14px 32px;
+            background-color: #FF7E03;
+
+            a {
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 800;
+                font-size: 14px;
+                line-height: 19px;
+                text-align: center;
+                text-transform: uppercase;
+                color: #FFF;
+            }
+        }
+    }
+
+    &__copyright {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 130px;
+
+        &-date {
+            font-family: 'Source Sans Pro', sans-serif;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 19px;
+            color: #000;
+        }
+
+        &-mail {
+            font-family: 'Source Sans Pro', sans-serif;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 25px;
+            color: #FF7E03;
+        }
+    }
+}
+
+.logo {
+    transition: .3s ease-in-out;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
